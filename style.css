@@ -1,0 +1,308 @@
+.header{
+    display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    flex-wrap: wrap;
+    background-color: #F5F5DC;
+}
+.c{
+    display: flex;
+    justify-content: center;
+}
+.hh {
+    flex: 1 1 100%;
+}
+.h{
+    display: inline-block;
+    border: 1px solid black;
+    width: 50%;
+    flex: 1 1 50%;
+    margin-top: 5px;
+    background-color: #048B9A;
+    color: #F5F5DC;
+}
+.b{
+    text-align: end;
+    margin-right: 10%;
+}
+.a{
+    margin-left: 10%;
+}
+nav{
+    display: block;
+}
+.ul{
+    margin-top: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+.ul li{
+    display: inline-block;
+    margin: 0 60px;
+}
+
+.section{
+    border: 2px solid black;
+    margin: 10px;
+    padding-top: 5px;
+    background-color: #F5F5DC;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.sa{
+    border: 1px solid black;
+    
+    height: 250px;
+    margin-left: 10%;
+}
+.p{
+    color:rgb(43, 84, 230);
+}
+.sb{
+    border: 1px solid black;
+    width: 70%;
+    margin-right: 10%;
+}
+.s1{
+    display: flex;
+}
+.presentation{
+    border: 1px solid black;
+    margin-left: 9%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ana{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+}
+.p1{
+    display: flex;
+}
+.p2{
+    padding-top: 70px;
+    height: 350px;
+}
+.chi{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+.p3{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.p3 li { 
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.moi{
+    border: 1px solid black;
+    width: 60%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.moi tr {
+    border: 1px solid black; 
+    border-radius: 100px;
+}
+.experiece{
+    border: 1px solid black;
+    width: 60%;
+    text-align: center;
+    margin: 20px;   
+}
+.experiece tr {
+    border: 1px solid black; 
+    border-radius: 100px;
+}
+.Contact{
+    border: 1px solid black;
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+.Contact tr {
+    border: 1px solid black; 
+    border-radius: 100px;
+}
+.con{
+    text-align: center;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+label , input {
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.envoyer{
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+}
+.mil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 800px;
+    margin-right: 9%; 
+    border: 1px solid black;
+    width: 30%;
+}
+  
+.qec table {
+    margin: 0 auto;
+}
+
+.Contact .for .forr{
+    padding: 10px;
+}
+.imc{
+    color: #007bff;
+}
+.footer{
+    border: 2px solid black;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #F5F5DC;
+}
+.foo{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media all and (max-width : 700px){
+    .header{
+        display: block;
+    }
+    .h{
+        width: 100%;
+    }
+    .a , .b{
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .c{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .c .ul{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding:0 ;
+    }
+    .ul li{
+        text-align: center;
+        width: 25%;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding:0;
+        margin-bottom: 5px;
+    }
+    .s1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .sa{
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+        margin-bottom: 5px;
+    }
+    .sb{
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .presentation{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .p3 li {
+        width: 100%;
+        justify-content: center;
+    }
+    .mil{
+        display: block;
+    }
+    .p1{
+        display: block;
+    }
+    .p3{
+        display: block;
+    }
+    .qec{
+        display: block;
+        width: 100%;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+    .moi{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .experiece{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Contact{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .footer{
+        display: block;
+        width: 100%;
+    }
+    .foo{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}

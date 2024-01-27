@@ -1,0 +1,93 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.a .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+}
+.a .container .b {
+    width: 250px;
+}
+.a .container .box img {
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .a .container {
+        width: 968px;
+    }
+}
+@media (max-width: 970px) {
+    .a .container {
+        width: 768px;
+    }
+    .a .container .b {
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .a .container {
+        width: 568px;
+    }
+    .a .container .b {
+        width: 200px;
+    }
+}
+@media (max-width: 590px) {
+    .a .container {
+        width: 368px;
+    }
+    .a .container .b {
+        width: 250px;
+    }
+}
+@media (max-width: 390px) {
+    .a .container {
+        width: calc(100vw - 20px);
+    }
+    .a .container .b {
+        width: 200px;
+    }
+}
+    </style>
+<body>
+    <div class="a">
+        <div class="container">
+            <div class="b">
+                <img src="ad.jpg">
+                <h4>jacket</h4>
+                <p>$99.99</p>
+            </div>
+            <div class="b">
+                <img src="ad.jpg" >
+                <h4>jacket</h4>
+                <p>$99.99</p>
+            </div>
+            <div class="b">
+                <img src="ad.jpg" >
+                <h4>jacket</h4>
+                <p>$99.99</p>
+            </div>
+            <div class="b">
+                <img src="ad.jpg" >
+                <h4>jacket</h4>
+                <p>$99.99</p>
+            </div>
+            <div class="b">
+                <img src="ad.jpg" >
+                <h4>jacket</h4>
+                <p>$99.99</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
