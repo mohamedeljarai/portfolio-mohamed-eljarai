@@ -238,10 +238,18 @@ label , input {
         padding:0;
         margin-bottom: 5px;
     }
+    .section{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
     .s1{
         display: block;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        
     }
     .sa{
         margin-left: 25%;
@@ -289,6 +297,9 @@ label , input {
     }
     .mil{
         display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     .p1{
         display: block;
