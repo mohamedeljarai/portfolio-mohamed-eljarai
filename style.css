@@ -1,32 +1,28 @@
 .header{
     display: flex;
-    border: 2px solid black;
-    margin: 10px;
-    flex-wrap: wrap;
-    background-color: #F5F5DC;
-}
-.c{
-    display: flex;
-    justify-content: center;
-}
-.hh {
-    flex: 1 1 100%;
-}
-.h{
-    display: inline-block;
-    border: 1px solid black;
-    width: 50%;
-    flex: 1 1 50%;
-    margin-top: 5px;
     background-color: #048B9A;
-    color: #F5F5DC;
-}
-.b{
-    text-align: end;
-    margin-right: 10%;
+    color:  #F5F5DC;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .a{
-    margin-left: 10%;
+    flex-grow: 3;
+}
+.a , .b , .c {
+    flex-basis: 200px;
+}
+.header a:link{
+    color:  #F5F5DC;
+}
+.header a:visited{
+    color:  #F5F5DC;
 }
 nav{
     display: block;
@@ -46,14 +42,17 @@ nav{
     margin: 10px;
     padding-top: 5px;
     background-color: #F5F5DC;
+    padding-top: 100px;
 }
 img{
     width: 100%;
     height: 100%;
 }
 .sa{
-    border: 1px solid black;
-    
+    border: 1px solid  #048B9A;
+    box-shadow: 0px 0px 10px 2px #048B9A;
+    border-radius: 20px;
+    margin-right: 10px;
     height: 250px;
     margin-left: 10%;
 }
@@ -61,22 +60,35 @@ img{
     color:rgb(43, 84, 230);
 }
 .sb{
-    border: 1px solid black;
+    border: 1px solid  #048B9A;
     width: 70%;
     margin-right: 10%;
+    box-shadow: 0px 0px 10px 2px #048B9A;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 .s1{
     display: flex;
+    margin: 20px;
 }
 .presentation{
-    border: 1px solid black;
+    border: 1px solid  #048B9A;
+    box-shadow: 0px 0px 10px 2px #048B9A;
+    border-radius: 20px;
+    margin-right: 10px;
     margin-left: 9%;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 5px;
     padding-top: 20px;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
 }
 .ana{
     width: 300px;
@@ -101,6 +113,8 @@ img{
     width: 80%;
     list-style-type: none;
     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .p3 li { 
     display: inline-block;
@@ -109,10 +123,8 @@ img{
 }
 .moi{
     border: 1px solid black;
-    width: 60%;
+
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 .moi tr {
     border: 1px solid black; 
@@ -120,19 +132,14 @@ img{
 }
 .experiece{
     border: 1px solid black;
-    width: 60%;
-    text-align: center;
-    margin: 20px;   
+    text-align: center; 
 }
 .experiece tr {
     border: 1px solid black; 
     border-radius: 100px;
 }
 .Contact{
-    border: 1px solid black;
-    width: 60%;
-    margin-top: 15px;
-    margin-bottom: 15px;   
+    border: 1px solid black;   
 }
 .Contact tr {
     border: 1px solid black; 
@@ -171,97 +178,76 @@ label , input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
     height: 800px;
     margin-right: 9%; 
-    border: 1px solid black;
+    border: 1px solid  #048B9A;
+    box-shadow: 0px 0px 10px 2px #048B9A;
+    border-radius: 20px;
     width: 30%;
+    margin: 20px;
 }
   
 .qec table {
     margin: 0 auto;
+    width: 90%;
 }
 
 .Contact .for .forr{
     padding: 10px;
 }
-.imc{
-    color: #007bff;
-}
 .footer{
+    color: #F5F5DC;
     border: 2px solid black;
-    margin: 5px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
-    background-color: #F5F5DC;
+    background-color: #048B9A;
+
+
 }
-.foo{
-    border: 1px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10%;
-    margin-right: 10%;
+.coo{
+    text-align: start;
 }
 @media all and (max-width : 700px){
     .header{
-        display: block;
-    }
-    .h{
-        width: 100%;
-    }
-    .a , .b{
-        margin: 0;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    .c{
         display: inline-block;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
+    }
+    .header div{
+        display: inline-block;
+    }
+    .a{
+        flex-grow: 1;
+        flex-basis: 100%;
         width: 100%;
     }
-    .c .ul{
-        display: flex;
-        width: 100%;
-        margin: 0;
-        padding:0 ;
-    }
-    .ul li{
+    .b , .c , .c {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
-        width: 25%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding:0;
-        margin-bottom: 5px;
-    }
-    .section{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
+        width: 33.33%;
     }
     .s1{
         display: block;
-        justify-content: center;
-        align-items: center;
         width: 100%;
-        
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .sa{
         margin-left: 25%;
         margin-right: 25%;
         width: 50%;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .sb{
         margin-top: 5px;
         margin-left: 0;
         margin-right: 0;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        padding: 20px;
     }
     .presentation{
         display: block;
@@ -308,8 +294,10 @@ label , input {
     .qec{
         display: block;
         width: 100%;
-        padding-top: 5px;
-        margin-top: 5px;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin: 0;
+        margin-bottom: 20px;
     }
     .moi{
         width: 80%;
