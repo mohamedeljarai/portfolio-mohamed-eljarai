@@ -122,28 +122,57 @@ img{
     text-align: center;
 }
 .moi{
-    border: 1px solid black;
-
+    border-radius: 10px;
     text-align: center;
+    
 }
-.moi tr {
-    border: 1px solid black; 
-    border-radius: 100px;
+.moi .sss{
+    border-bottom: 1px solid black ;
+}
+.qsj{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    
 }
 .experiece{
-    border: 1px solid black;
-    text-align: center; 
+    border-radius: 10px;
+    text-align: center;
+    
 }
-.experiece tr {
-    border: 1px solid black; 
-    border-radius: 100px;
+.experiece .exp1{
+    border-bottom: 1px solid black ;
+}
+.exp{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    
 }
 .Contact{
-    border: 1px solid black;   
+    border-radius: 10px;
+    text-align: center;
 }
-.Contact tr {
-    border: 1px solid black; 
-    border-radius: 100px;
+.Contact .cont1{
+    border-bottom: 1px solid black ;
+}
+.cont{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    
 }
 .con{
     text-align: center;
@@ -202,8 +231,6 @@ label , input {
     margin-right: 10px;
     text-align: center;
     background-color: #048B9A;
-
-
 }
 .coo{
     text-align: start;
