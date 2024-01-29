@@ -109,8 +109,9 @@ img{
 }
 .p3{
     display: flex;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 80%;
+    text-align: center;
     list-style-type: none;
     justify-content: space-between;
     flex-direction: row;
@@ -299,11 +300,18 @@ label , input {
         width: 100%;
         text-align: center;
         margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     .p3 li {
         width: 100%;
         margin: 0;
-        text-align: center;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     .gra{
         text-align: center;
